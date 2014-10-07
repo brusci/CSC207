@@ -10,5 +10,3 @@ Contributors:
 Brusci - Robert
 Ryyz - Ramanan
 Dmunir94 - Munir
-
-DMunir94 is a perfectly good name, Brusci

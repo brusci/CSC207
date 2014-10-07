@@ -1,5 +1,3 @@
-- [ ] a task list item
-- [ ] list syntax required
-- [ ] normal **formatting**, @mentions, #1234 refs
-- [ ] incomplete
-- [x] completed
+- [2] Find all 4 bugs in the code.
+- [x] incomplete
+- [ ] completed

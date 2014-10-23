@@ -1,7 +1,7 @@
 We are developing an Android application that helps hopsitals with their triage logistics.
 When a patient enters the emergency room information is recorded about the patient, such as: name, birthdate, health card number, symptoms, and vital signs.
 This program prioritizes patients with high urgency as defined by the hospital policy.
-The application allows the nurse update the status of a patient and access their previous history.
+The application allows the nurse to update the status of a patient and access their previous history.
 Also, the application allows the nurse to check if the patient's condition is improving or worsening, and if they have been seen by a doctor.
 
 Patient (extends User, Observation)

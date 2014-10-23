@@ -4,7 +4,7 @@ This program prioritizes patients with high urgency as defined by the hospital p
 The application allows the nurse to update the status of a patient and access their previous history.
 Also, the application allows the nurse to check if the patient's condition is improving or worsening, and if they have been seen by a doctor.
 
-Patient (extends User, Observation)
+Patient ()
  fields:
   name
   age

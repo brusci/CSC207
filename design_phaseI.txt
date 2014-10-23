@@ -1,0 +1,34 @@
+We are developing an Android application that helps hopsitals with their triage logistics.
+When a patient enters the emergency room information is recorded about the patient, such as: name, birthdate, health card number, symptoms, and vital signs.
+This program prioritizes patients with high urgency as defined by the hospital policy.
+The application allows the nurse update the status of a patient and access their previous history.
+Also, the application allows the nurse to check if the patient's condition is improving or worsening, and if they have been seen by a doctor.
+
+Patient (extends User, Observation)
+ fields:
+  name
+  age
+  temperature
+  blood pressure
+  heart rate
+  birthdate
+  health card number
+  arrival time
+  symptoms
+  seen by a doctor
+ methods:
+   get urgency status
+   patient record look up via health card number
+   get if has been seen by a doctor
+
+Records ()
+  fields:
+   write database with patient name all columns
+   SQL database object
+ methods:
+  load database
+  close database
+  add to database
+  save database
+  delete from database
+  search database

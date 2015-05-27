@@ -9,4 +9,3 @@ If you solve anything, please remember to document how you solved the problem.
 Contributors:
 Brusci - Robert
 Ryyz - Ramanan
-Dmunir94 - Munir

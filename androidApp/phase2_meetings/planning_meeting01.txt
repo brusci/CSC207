@@ -1,0 +1,7 @@
+10/27/2014 Planning Meeting
+c3staski - Assigned Android GUI Layout.
+c3sivagu - Assigned Patient class.
+c4shalli - Assigned Triage class.
+c3yangda - Assigned Nurse class.
+
+Group meeting length: 50

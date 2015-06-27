@@ -1,0 +1,9 @@
+11/21/2014 Status Meeting
+c3staski - Finished the login page, added various toasts.
+c3sivagu - Finished new patient fields.
+c4shalli - Finished buttons.
+g3yang   - Need to add text fields and buttons on the patient page.
+
+Group meeting length: 70 minutes
+
+ 

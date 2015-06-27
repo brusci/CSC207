@@ -1,0 +1,10 @@
+11/23/2014 Status Meeting
+c3staski - Fixed login.
+c3sivagu - Fixed age in getUrgency().
+c4shalli - Fixed Sort.
+g3yang   - Fixed RecordActivity ListView.
+
+Group meeting length: 360 minutes
+
+ 
+

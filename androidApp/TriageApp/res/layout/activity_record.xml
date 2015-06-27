@@ -1,0 +1,169 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.toronto.triageapp.MainActivity"
+    android:background="@color/white" >
+    
+
+    <ListView
+        android:id="@+id/expListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/save_button"
+        android:layout_below="@+id/instructionView">
+    </ListView>
+
+    <EditText
+	    android:id="@+id/temperatureView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:hint="@string/temperature"
+	    android:layout_below="@+id/seenView"
+	     />
+    
+    <EditText
+	    android:id="@+id/heartrateView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:hint="@string/heartrate"
+	    android:layout_below="@+id/temperatureView" />
+
+    <EditText
+        android:id="@+id/seenNurseView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:hint="@string/patientSeen"
+        android:layout_above="@+id/diastolicpressureView"
+        />
+    
+    <EditText
+	    android:id="@+id/diastolicpressureView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:hint="@string/diastolicpressure"
+	    android:layout_above="@+id/systolicpressureView"
+	    />
+    
+    
+    <EditText
+	    android:id="@+id/systolicpressureView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:hint="@string/systolicpressure"
+	    android:layout_above="@+id/symptomsView" />
+    
+
+    
+    <EditText
+	    android:id="@+id/symptomsView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:hint="@string/symptoms"
+	    android:layout_above="@+id/instructionView" />
+    
+    <EditText
+	    android:id="@+id/medicationView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:hint="@string/medication"
+	    android:layout_below="@+id/heartrateView"/>
+    
+    <EditText
+	    android:id="@+id/instructionView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:hint="@string/instruction"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/medicationView" />
+    
+    
+	<Button
+        
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_button"
+        android:onClick="saveRecord"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:minHeight="0dp"
+		android:minWidth="0dp">
+        
+    
+    </Button>
+    <Button
+        
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_button"
+        android:onClick="back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:minHeight="0dp"
+		android:minWidth="0dp">
+        
+    
+</Button>
+
+	<TextView
+	    android:id="@+id/nameView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:text="@string/name" />
+	
+	<TextView
+	    android:id="@+id/dateofbirthView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:text="@string/date_of_birth" 
+	    />
+	
+	<TextView
+	    android:id="@+id/healthcardnumberView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:text="@string/health_card_number"
+	    android:layout_below="@+id/arrivaltimeView" />
+	
+	<TextView
+	    android:id="@+id/arrivaltimeView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:text="@string/arrivaltime"
+	    android:layout_below="@+id/nameView" />
+	<TextView
+	    android:id="@+id/seenText"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:text="Seen by Doctor: "
+	    android:layout_below="@+id/healthcardnumberView" />
+	<TextView
+	    android:id="@+id/seenView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@+id/seenText"
+	    android:text="@string/seen"
+	    android:layout_below="@+id/healthcardnumberView" />
+    
+</RelativeLayout>

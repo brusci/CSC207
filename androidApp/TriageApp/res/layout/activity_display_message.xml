@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        
+        android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+   		android:windowSoftInputMode="stateHidden" >
+    
+        
+   <AutoCompleteTextView android:id="@+id/input_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_message"
+        android:textSize="12sp"
+        android:layout_above="@+id/listView1"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/search_message"
+        android:layout_alignParentLeft="true"
+        > 
+        <requestFocus />
+    </AutoCompleteTextView>
+    
+   
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/search_message">
+    </ListView>
+<!--
+    <Button
+        android:id="@+id/button_home"
+        android:text="@string/home_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="sendHome">
+    </Button>
+    
+    android:layout_above="@+id/button_home" #for listview
+-->    
+    
+<Button
+        
+        android:id="@+id/search_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_view"
+        android:layout_alignParentRight="true"
+        android:minHeight="0dp"
+		android:minWidth="0dp"
+		android:onClick="search">
+        
+    
+    </Button>
+<Button
+        
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_button"
+        android:onClick="back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:minHeight="0dp"
+		android:minWidth="0dp">
+        
+    
+</Button>
+
+<Button
+    android:id="@+id/sort_button"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/search_message"
+    android:onClick="unseen"
+    android:text="@string/sort_button" />
+<Button
+    android:id="@+id/clear_search_button"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/sort_button"
+    android:onClick="clearSearch"
+    android:text="@string/clear_search_button" />
+
+</RelativeLayout>

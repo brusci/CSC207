@@ -1,0 +1,7 @@
+11/09/2014 Planning Meeting
+c3staski - Fixed last minute problems.
+c3sivagu - Added comments and Javadocs for Patient class.
+c4shalli - Added comments and Javadocs for Nurse Class.
+c3yangda - Fixed last minute problems.
+
+Group meeting length: 600 minutes

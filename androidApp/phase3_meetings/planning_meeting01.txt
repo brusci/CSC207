@@ -1,0 +1,7 @@
+11/12/2014 Planning Meeting
+c3staski - Assigned Nurse and Physician login views.
+c3sivagu - Assigned new patient fields Prescription and Instructions, and get urgency method.
+c4shalli - Assigned sorting of Patients based on urgency and arrival time.
+g3yang   - Assigned recording prescription and new patient method in text file.
+
+Group meeting length: 35 minutes

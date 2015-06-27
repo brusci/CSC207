@@ -1,0 +1,8 @@
+11/14/2014 Status Meeting
+c3staski - Finished part of the login page, need to show urgency on list of patients page.
+c3sivagu - Finished new fields except age used for urgency.
+c4shalli - Finished sorting, still need to make buttons.
+g3yang   - Finished new features in nurse need to add text fields and buttons on the patient page.
+
+Group meeting length: 60 minutes
+

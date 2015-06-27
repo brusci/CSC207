@@ -1,0 +1,8 @@
+11/08/2014 Planning Meeting
+c3staski - Discussed problems with expandableListView
+c3sivagu - Committed Patient class to repository, worked on integration.
+c4shalli - Serializable implemented.
+c3yangda - Discussed Android deadlines and tasks.
+
+Group meeting length: 90 minutes
+ 

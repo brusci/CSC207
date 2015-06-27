@@ -1,0 +1,7 @@
+10/29/2014 Status Meeting
+c3staski - Finished two activites and buttons.
+c3sivagu - Thought about Patient class design.
+c4shalli - Thought about implementation of database.
+c3yangda - Unavailable for meeting.
+
+Group meeting length: 35

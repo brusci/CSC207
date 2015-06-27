@@ -1,0 +1,8 @@
+11/03/2014 Planning Meeting
+c3staski - Discussed changes to android UI.
+c3sivagu - Clarified Patient design.
+c4shalli - Discussed Triage design.
+c3yangda - Finished Nurse class.
+
+Group meeting length: 50 minutes
+ 

@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.toronto.triageapp.MainActivity"
+    android:background="@color/white"
+    
+    >
+    
+     <EditText
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+
+     />
+     
+      <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/user_name"/>
+      
+      <Button
+        android:id="@+id/sign_in"
+        android:text="@string/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/user_name"
+        android:onClick="staffLogin">
+        
+    </Button>
+    
+    <EditText
+        android:id="@+id/input_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_add"
+        android:layout_below="@+id/button_patient"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/button_new_record"
+        android:visibility="invisible"/>
+  
+    <Button
+        android:id="@+id/button_new_record"
+        android:text="@string/new_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_patient"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:onClick="newRecord"
+        android:visibility="invisible" >
+    </Button>
+    
+    <Button
+        android:id="@+id/button_patient"
+        android:text="@string/patient_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableRight="@drawable/ic_action_new"
+        android:visibility="invisible"
+        android:onClick="sendPatient">
+    </Button>
+    
+    <Button
+        android:id="@+id/button_new_patient"
+        android:text="@string/new_patient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_new_record"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:onClick="newPatient"
+        android:visibility="invisible" >
+    </Button>
+    <Button
+        android:id="@+id/button_log_out"
+        android:text="@string/log_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_log_out"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:onClick="logOut"
+        android:visibility="invisible" >
+    </Button>
+    
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_name"
+        android:layout_below="@+id/input_add"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/button_new_patient"
+        android:visibility="invisible"/>
+    <EditText
+        android:id="@+id/input_birthday"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_birthday"
+        android:layout_below="@+id/input_name"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/button_new_patient"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

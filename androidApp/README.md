@@ -10,3 +10,5 @@ The Records class will create and maintain the SQLite database.
 The Patient and Records classes will be used by the MainActivity class.
 The Patient class has several methods to make the design modular.
 The SQLite database can then be exported to a hospital database if required.
+
+![](https://github.com/brusci/CSC207-Labs/androidApp/starView.jpg)

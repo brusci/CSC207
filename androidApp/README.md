@@ -12,3 +12,4 @@ The Patient class has several methods to make the design modular.
 The SQLite database can then be exported to a hospital database if required.
 
 ![](https://github.com/brusci/CSC207/blob/master/androidApp/startView.JPG)
+![](https://github.com/brusci/CSC207/blob/master/androidApp/patients.JPG)
